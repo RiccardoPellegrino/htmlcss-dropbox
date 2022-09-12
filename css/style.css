@@ -54,10 +54,6 @@ header button:hover {
     background-color: var(--lightblue);
 }
 
-.btn {
-    margin-top: 20px;
-}
-
 ul {
     list-style-type: none;
 }
@@ -88,7 +84,7 @@ h3 {
 h4 {
     font-size: 20px;
 }
-
+/* tipi di flex */
 .d-flex {
     display: flex;
     flex-flow: wrap;
@@ -155,6 +151,7 @@ footer {
 }
 .list {
     width: calc(100% / 5);
+    
 }
 
 hr {
@@ -193,7 +190,7 @@ footer a{
 }
 
 .card {
-    width: calc(100% / 3);
+    width: calc((100% - 100px)/ 3);
     height: 1000px;
     border: 1px solid grey;
     text-align: center;
@@ -207,8 +204,40 @@ footer a{
 }
 
 .allineamento-card {
-    text-align: left;
+
     padding-left: 10%;
     padding-top: 10%;
 }
 
+.icona-card i {
+    margin-right:10px;
+}
+.margine30{
+    margin-top: 30px;
+    
+}
+.margine20 {
+    margin-top: 20px;
+}
+
+.margine50{
+    margin-top: 50px;
+    padding-left:35px ;
+    
+}
+.button2 {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 10px 40px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.sottolinea a{
+    text-decoration: underline;
+    color: var(--blue);
+}
+.blue{
+    color: #0061FF;
+}
