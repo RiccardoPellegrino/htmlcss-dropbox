@@ -40,7 +40,7 @@ header nav {
     background-color: var(--white);
 }
 
-header button {
+button {
     background-color: var(--blue);
     color: var(--white);
     padding: 8px 20px;
@@ -49,10 +49,13 @@ header button {
     cursor: pointer;
     margin-right: 10px;
 }
+
 header button:hover {
     background-color: var(--lightblue);
 }
-
+.btn{
+    margin-top: 20px;
+}
 ul {
     list-style-type: none;
 }
@@ -70,12 +73,17 @@ ul {
 h1 {
     font-size: 76px;
 }
-
+h2{
+    font-size: 40px;
+}
 .d-flex {
     display: flex;
     align-items: center;
 }
-
+#hero i{
+    font-size: 40px;
+    margin-top: 110px;
+}
 .destra {
     display: flex;
     margin-left: auto;
@@ -88,16 +96,19 @@ h1 {
     justify-content: baseline;
 
 }
-.logo{
+
+.logo {
     margin: 0 20px;
     cursor: pointer;
 }
+
 .menu li {
     display: inline-block;
     margin: 0 15px;
     list-style: none;
 }
-.menu li:hover{
+
+.menu li:hover {
     cursor: pointer;
     text-decoration-line: underline;
     color: #0061FF;
@@ -109,10 +120,17 @@ h1 {
 
 .w30 {
     width: 30%;
+    padding-top: 50px;
+
+}
+
+.flex-start {
+    align-items: flex-start;
 }
 
 .w70 {
     width: 70%;
+    padding-top: 50px;
 }
 
 /* footer */
