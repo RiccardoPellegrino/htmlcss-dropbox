@@ -53,9 +53,11 @@ button {
 header button:hover {
     background-color: var(--lightblue);
 }
-.btn{
+
+.btn {
     margin-top: 20px;
 }
+
 ul {
     list-style-type: none;
 }
@@ -73,17 +75,31 @@ ul {
 h1 {
     font-size: 76px;
 }
-h2{
+
+h2 {
     font-size: 40px;
 }
+
+h3 {
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+h4 {
+    font-size: 20px;
+}
+
 .d-flex {
     display: flex;
+    flex-flow: wrap;
     align-items: center;
 }
-.w30 i{
+
+.w30 i {
     font-size: 40px;
     margin-top: 90px;
 }
+
 .destra {
     display: flex;
     margin-left: auto;
@@ -137,10 +153,24 @@ footer {
     background-color: var(--black);
     color: var(--white);
 }
+.list {
+    width: calc(100% / 5);
+}
+
+hr {
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+
 /* main */
 .radio-div {
     height: 50px;
 }
+
 .circle {
     display: inline-block;
     background-color: var(--white);
@@ -149,12 +179,36 @@ footer {
     border-radius: 50%;
     vertical-align: middle;
 }
+
 #checked {
     border: 6px solid var(--blue);
 }
+
 #non-checked {
     border: 3px solid rgb(221, 221, 223);
 }
+
 .radio-div span {
     line-height: 50px;
 }
+
+.card {
+    width: calc(100% / 3);
+    height: 1000px;
+    border: 1px solid grey;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.intestazione-card {
+
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.allineamento-card {
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
