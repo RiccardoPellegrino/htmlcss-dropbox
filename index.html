@@ -35,7 +35,7 @@
                         <li>Supporto</li>
                         <li>Contatta l'ufficio vendite</li>
                         <li>Accedi</li>
-                        <button class="inzia">Inizia</button>
+                        <button class="bottone">Inizia</button>
                     </ul>
 
                 </div>
@@ -52,17 +52,17 @@
                         <span>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
                             posto.DropBox Buisness è piu di uno spazio di archiviazione sicuro: è un modo intelligente e
                             integrato per ottimizzare il flusso di lavoro esistente.</span>
-                        <br>
-                        <button class="button btn">
-                            Inizia la tua prova gratuita
-                        </button>
-                        <br>
-                        <br>
-                        <br>
-                        <span>Annulla in qualsiasi momento</span>
-                        <br>
-                        <br>
-                        <i class="fa-solid fa-arrow-down"></i>
+                        <div class="btn">
+                            <button class="button btn">
+                                Inizia la tua prova gratuita
+                            </button>
+                        </div>
+                        <div class="btn">
+                            <span>Annulla in qualsiasi momento</span>
+                        </div>
+                        <div class="btn">
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
                     </div>
                     <div class="w70">
                         <img src="./img/jumbo.png" alt="jumbo">
@@ -76,10 +76,21 @@
     <main>
         <section id="plans" class="small-container">
             <h2>Trova il piano buisness che fa per te</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat tempora optio debitis cum nulla quaerat
-                mollitia ex exercitationem neque, facilis placeat natus corporis odit illum animi? Facilis ex tempore
-                porro?</p>
+
+
+            <!-- radio checkbox -->
+            <div class="d-flex">
+                <div class="radio-div">
+                    <div class="circle" id="checked"></div>
+                    <span>Fatturazione mensile</span>
+                </div>
+                <div class="radio-div">
+                    <div class="circle" id="non-checked"></div>
+                    <span>Fatturazione annuale</span>
+                </div>
+            </div>
         </section>
+
         <section></section>
         <section></section>
         <section></section>
@@ -90,8 +101,8 @@
 
     <!-- fixed 100% -->
     <footer>
-        <nav class="container">
-            <ul>
+        <nav class="container ">
+            <ul class="d-flex">
                 <li>item</li>
                 <li>item</li>
                 <li>item</li>

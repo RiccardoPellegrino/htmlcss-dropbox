@@ -80,20 +80,19 @@ h2{
     display: flex;
     align-items: center;
 }
-#hero i{
+.w30 i{
     font-size: 40px;
-    margin-top: 110px;
+    margin-top: 90px;
 }
 .destra {
     display: flex;
     margin-left: auto;
 }
 
-.inizia {
+.bottone {
     background-color: #0061FF;
     border: none;
     cursor: pointer;
-    justify-content: baseline;
 
 }
 
@@ -137,4 +136,25 @@ h2{
 footer {
     background-color: var(--black);
     color: var(--white);
+}
+/* main */
+.radio-div {
+    height: 50px;
+}
+.circle {
+    display: inline-block;
+    background-color: var(--white);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+#checked {
+    border: 6px solid var(--blue);
+}
+#non-checked {
+    border: 3px solid rgb(221, 221, 223);
+}
+.radio-div span {
+    line-height: 50px;
 }
