@@ -14,13 +14,14 @@
 body {
     background-color: var(--white);
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 1150px;
 }
 
 /* per inner hero e inner footer */
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    /* min-width: ; */
+    
 }
 
 /* per sections main */
@@ -38,6 +39,7 @@ header nav {
     left: 0;
     z-index: 500;
     background-color: var(--white);
+    min-width: 1150px;
 }
 
 button {
@@ -87,6 +89,7 @@ h4 {
     flex-flow: wrap;
     align-items: center;
 }
+
 .flex-start {
     align-items: flex-start;
 }
@@ -110,17 +113,20 @@ h4 {
     background-color: #0061FF;
     border: none;
     cursor: pointer;
-    
+
 }
-.riga{
+
+.riga {
     width: 50px;
     height: 2px;
     border: 1px solid grey;
     margin-top: 150px;
 }
-.grigio{
+
+.grigio {
     color: gray;
 }
+
 .logo {
     margin: 0 20px;
     cursor: pointer;
@@ -188,9 +194,11 @@ footer a {
     vertical-align: middle;
     cursor: pointer;
 }
-.radio-div{
+
+.radio-div {
     margin-right: 50px;
 }
+
 #checked {
     border: 6px solid var(--blue);
 }
@@ -222,10 +230,12 @@ footer a {
     padding-left: 20px;
     padding-top: 30px;
 }
+
 .allineamento-card-titolo {
     padding-left: 20px;
     padding-top: 30px;
 }
+
 .icona-card i {
     margin-right: 10px;
 }
@@ -241,8 +251,11 @@ footer a {
 
 .margine50 {
     margin-top: 50px;
-    padding-left: 35px;
 
+}
+.margine-butt{
+    margin-top: 18px; 
+    margin-left: 30px;
 }
 
 .button2 {
@@ -252,7 +265,7 @@ footer a {
     border: none;
     text-align: center;
     cursor: pointer;
-    margin-right: 10px;
+    
 }
 
 .sottolinea a {
@@ -277,9 +290,10 @@ footer a {
 
 }
 
-.text-aline{
+.text-aline {
     text-align: initial;
 }
+
 .container-enterprise {
     margin-top: 20px;
 }
@@ -295,24 +309,49 @@ footer a {
     text-decoration: none;
 
 }
-.w60{
+
+.w60 {
     width: 60%;
 }
+
 .w60 img {
-    width:100%;
+    width: 100%;
 }
-.w40{
+
+.w40 {
     width: 40%;
 }
-#foto .w40{
+
+#foto .w40 {
     padding-top: 40px;
     padding-left: 40px;
 }
 
-#foto .w40 div{
-    margin-top:30px ;
-    margin-bottom:30px;
+#foto .w40 div {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+#sei-blocchi img {
+    width: 300px;
+}
 
-    
+#img .contenitore {
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.container-card {
+    width: calc((100%) / 3);
+
+}
+
+.container-card div {
+    margin: 20px 0;
+}
+
+.container-card h3 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
