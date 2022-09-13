@@ -385,12 +385,26 @@ footer a {
     height: 15vw;
     background-color: aqua;
     z-index: 10;
-
+    background-image: url('/img/designit.svg');
+  
 }
 .tr{
     width: 15vw;
     height: 15vw;
     background-color: rgb(217, 255, 0);
+    z-index: 10;
+}
+.tld{
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(187, 37, 155);
+    z-index: 10;
+  
+}
+.trd{
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(202, 63, 63);
     z-index: 10;
 }
 .bls{
@@ -409,14 +423,14 @@ footer a {
     margin-top: 15vw;
     width: 15vw;
     height: 15vw;
-    background-color: rgb(197, 101, 21);
+    background-color: rgb(119, 107, 98);
     
 }
 .brd{
     margin-top: 15vw;
     width: 15vw;
     height: 15vw;
-    background-color: rgb(47, 21, 197);
+    background-color: rgb(76, 72, 100);
     
 }
 .margin-vw{
