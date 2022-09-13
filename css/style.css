@@ -21,7 +21,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    
+
 }
 
 /* per sections main */
@@ -253,8 +253,9 @@ footer a {
     margin-top: 50px;
 
 }
-.margine-butt{
-    margin-top: 18px; 
+
+.margine-butt {
+    margin-top: 18px;
     margin-left: 30px;
 }
 
@@ -265,7 +266,7 @@ footer a {
     border: none;
     text-align: center;
     cursor: pointer;
-    
+
 }
 
 .sottolinea a {
@@ -354,4 +355,28 @@ footer a {
     margin-top: 20px;
     margin-bottom: 50px;
 
+}
+
+.all-width {
+    position: relative;
+    width: 100vw;
+    background-color: red;
+    height: 100px;
+}
+
+.vw20s {
+    width: 20vw;
+    background-color: rgb(4, 0, 255);
+    height: 100px;
+    left: 0;
+    top: 0;
+}
+
+.vw20d {
+    position: absolute;
+    width: 20vw;
+    background-color: rgb(18, 219, 65);
+    height: 100px;
+    right: 0;
+    top: 0;
 }
