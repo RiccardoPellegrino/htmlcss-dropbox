@@ -305,8 +305,8 @@ footer a {
     width: 40%;
 }
 #foto .w40{
-    margin-top:50px;
-    margin-left: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
 }
 
 #foto .w40 div{
