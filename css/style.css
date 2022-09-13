@@ -302,3 +302,22 @@ footer a {
     text-decoration: none;
 
 }
+
+.w60 img {
+    width:60%;
+}
+.w40{
+    width: 40%;
+}
+#foto .w40{
+    margin-top:50px;
+    margin-left: 40px;
+}
+
+#foto .w40 div{
+    margin-top:30px ;
+    margin-bottom:30px;
+}
+
+
+    
