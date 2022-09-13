@@ -87,11 +87,8 @@ h4 {
     flex-flow: wrap;
     align-items: center;
 }
-
-.felx-str {
-    display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
+.flex-start {
+    align-items: flex-start;
 }
 
 .felx {
@@ -149,10 +146,6 @@ h4 {
     width: 30%;
     padding-top: 50px;
 
-}
-
-.flex-start {
-    align-items: flex-start;
 }
 
 .w70 {
@@ -302,9 +295,11 @@ footer a {
     text-decoration: none;
 
 }
-
+.w60{
+    width: 60%;
+}
 .w60 img {
-    width:60%;
+    width:100%;
 }
 .w40{
     width: 40%;
