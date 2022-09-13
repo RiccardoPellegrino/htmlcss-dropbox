@@ -76,32 +76,32 @@ h2 {
     font-size: 40px;
 }
 
-h3 {
-    text-align: left;
-    padding-left: 10%;
-    padding-top: 10%;
-}
+
 h4 {
     font-size: 20px;
 }
+
 /* tipi di flex */
 .d-flex {
     display: flex;
     flex-flow: wrap;
     align-items: center;
 }
-.felx-str{
+
+.felx-str {
     display: flex;
     justify-content: flex-start;
     align-items: stretch;
 }
-.felx{
+
+.felx {
     display: flex;
 }
 
 .w30 i {
     font-size: 40px;
     margin-top: 90px;
+    color: black;
 }
 
 .destra {
@@ -113,9 +113,17 @@ h4 {
     background-color: #0061FF;
     border: none;
     cursor: pointer;
-
+    
 }
-
+.riga{
+    width: 50px;
+    height: 2px;
+    border: 1px solid grey;
+    margin-top: 150px;
+}
+.grigio{
+    color: gray;
+}
 .logo {
     margin: 0 20px;
     cursor: pointer;
@@ -157,15 +165,17 @@ footer {
     background-color: var(--black);
     color: var(--white);
 }
+
 .list {
     width: calc(100% / 5);
-    
+
 }
 
 hr {
     color: white;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: var(--white);
 }
@@ -185,7 +195,9 @@ footer a{
     vertical-align: middle;
     cursor: pointer;
 }
-
+.radio-div{
+    margin-right: 50px;
+}
 #checked {
     border: 6px solid var(--blue);
 }
@@ -217,23 +229,29 @@ footer a{
     padding-left: 20px;
     padding-top: 30px;
 }
-
+.allineamento-card-titolo {
+    padding-left: 20px;
+    padding-top: 30px;
+}
 .icona-card i {
-    margin-right:10px;
+    margin-right: 10px;
 }
-.margine30{
+
+.margine30 {
     margin-top: 30px;
-    
+
 }
+
 .margine20 {
     margin-top: 20px;
 }
 
-.margine50{
+.margine50 {
     margin-top: 50px;
-    padding-left:35px ;
-    
+    padding-left: 35px;
+
 }
+
 .button2 {
     background-color: var(--blue);
     color: var(--white);
@@ -243,10 +261,44 @@ footer a{
     cursor: pointer;
     margin-right: 10px;
 }
-.sottolinea a{
+
+.sottolinea a {
     text-decoration: underline;
     color: var(--blue);
 }
-.blue{
+
+.blue {
     color: #0061FF;
+}
+
+#enterprise {
+    border: 1px solid var(--black);
+}
+
+.intestazione-card2 {
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--black);
+
+}
+
+.text-aline{
+    text-align: initial;
+}
+.container-enterprise {
+    margin-top: 20px;
+}
+
+.dist20 {
+    padding: 20px;
+}
+
+.btn {
+    background-color: var(--blue);
+    padding: 7px 15px;
+    color: var(--white);
+    text-decoration: none;
+
 }
