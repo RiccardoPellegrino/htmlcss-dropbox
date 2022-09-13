@@ -365,18 +365,61 @@ footer a {
 }
 
 .vw20s {
-    width: 20vw;
+    width: 30vw;
     background-color: rgb(4, 0, 255);
-    height: 100px;
+    /* height: 100px; */
     left: 0;
     top: 0;
 }
 
 .vw20d {
     position: absolute;
-    width: 20vw;
+    width: 30vw;
     background-color: rgb(18, 219, 65);
-    height: 100px;
+    /* height: 100px; */
     right: 0;
     top: 0;
+}
+.tl{
+    width: 15vw;
+    height: 15vw;
+    background-color: aqua;
+    z-index: 10;
+
+}
+.tr{
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(217, 255, 0);
+    z-index: 10;
+}
+.bls{
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(197, 101, 21);
+    
+}
+.brs{
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(47, 21, 197);
+    
+}
+.bld{
+    margin-top: 15vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(197, 101, 21);
+    
+}
+.brd{
+    margin-top: 15vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(47, 21, 197);
+    
+}
+.margin-vw{
+    margin-top: 30vw;
+
 }
