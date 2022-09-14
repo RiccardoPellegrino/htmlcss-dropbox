@@ -9,15 +9,17 @@
     --lightblue: rgb(181, 208, 232);
     --black: black;
     --blue: #0061FF;
-    --red:#D5001F;
-    --celestino:#B4D0E7;
-    --blue-scuro:#0D2481;
-    --giallo:#FFD830;
-    --marrone:#61082B;
-    --verdino:#A2D39B;
-    --celeste-scuro:#0093CE;
-    --rosso-acceso:#FF1C1C;
-    --grigetto:#F5F5F5;
+    --red: #D5001F;
+    --celestino: #B4D0E7;
+    --blue-scuro: #0D2481;
+    --giallo: #FFD830;
+    --marrone: #61082B;
+    --verdino: #A2D39B;
+    --verde-chiaro:#D1E9CD;
+    --celeste-scuro: #0093CE;
+    --rosso-acceso: #FF1C1C;
+    --grigetto: #F5F5F5;
+
 }
 
 body {
@@ -374,11 +376,12 @@ footer a {
 .img-box {
     width: 50%;
     height: 16vw;
-    background-color:var(--red);
+    background-color: var(--red);
     position: relative;
     border: 1px solid black;
 
 }
+
 .wrap {
     flex-wrap: wrap;
 }
@@ -398,4 +401,6 @@ footer a {
     height: 32vw;
     padding: 10px;
     overflow-y: auto;
+    background-color: var(--grigetto);
+    
 }
