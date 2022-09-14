@@ -15,7 +15,7 @@
     --giallo: #FFD830;
     --marrone: #61082B;
     --verdino: #A2D39B;
-    --verde-chiaro:#D1E9CD;
+    --verde-chiaro: #D1E9CD;
     --celeste-scuro: #0093CE;
     --rosso-acceso: #FF1C1C;
     --grigetto: #F5F5F5;
@@ -167,7 +167,7 @@ h4 {
 
 .w70 {
     width: 70%;
-    padding-top: 50px;
+
 }
 
 /* footer */
@@ -277,6 +277,7 @@ footer a {
     border: none;
     text-align: center;
     cursor: pointer;
+    text-decoration: none;
 
 }
 
@@ -287,6 +288,11 @@ footer a {
 
 .blue {
     color: #0061FF;
+}
+
+.bianco {
+    color: black;
+    background-color: white;
 }
 
 #enterprise {
@@ -402,5 +408,22 @@ footer a {
     padding: 10px;
     overflow-y: auto;
     background-color: var(--grigetto);
-    
+
+}
+
+.all-widht {
+    background-color: var(--celestino);
+    height: 400px;
+
+}
+
+.small-container2 {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 160px;
+}
+
+.w40-2 {
+    width: 40%;
+    text-align: end;
 }
