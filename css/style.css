@@ -80,6 +80,30 @@ ul {
     position: relative;
     bottom: -80px;
 }
+.grigio {
+    color: gray;
+}
+
+.logo {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 15px;
+    list-style: none;
+}
+
+.menu li:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+    color: #0061FF;
+}
+
+#hero img {
+    width: 100%;
+}
 
 h1 {
     font-size: 76px;
@@ -108,6 +132,7 @@ h4 {
 .felx {
     display: flex;
 }
+/* Fine tipi di flex */
 
 .w30 i {
     font-size: 40px;
@@ -134,31 +159,6 @@ h4 {
     margin-top: 150px;
 }
 
-.grigio {
-    color: gray;
-}
-
-.logo {
-    margin: 0 20px;
-    cursor: pointer;
-}
-
-.menu li {
-    display: inline-block;
-    margin: 0 15px;
-    list-style: none;
-}
-
-.menu li:hover {
-    cursor: pointer;
-    text-decoration-line: underline;
-    color: #0061FF;
-}
-
-#hero img {
-    width: 100%;
-}
-
 .w30 {
     width: 30%;
     padding-top: 50px;
@@ -174,7 +174,17 @@ h4 {
 .radio-div {
     height: 50px;
 }
+.blue {
+    color: #0061FF;
+}
 
+.bianco {
+    color: black;
+    background-color: white;
+}
+
+
+/* radio circle */
 .circle {
     display: inline-block;
     background-color: var(--white);
@@ -200,7 +210,9 @@ h4 {
 .radio-div span {
     line-height: 50px;
 }
+/* fine radio circle */
 
+/* inizio card */
 .card {
     width: calc((100% - 100px)/ 3);
     height: 1100px;
@@ -265,15 +277,6 @@ h4 {
     color: var(--blue);
 }
 
-.blue {
-    color: #0061FF;
-}
-
-.bianco {
-    color: black;
-    background-color: white;
-}
-
 #enterprise {
     border: 1px solid var(--black);
 }
@@ -291,6 +294,7 @@ h4 {
     text-align: initial;
 }
 
+/* fine card */
 .container-enterprise {
     margin-top: 20px;
 }
@@ -424,7 +428,9 @@ h4 {
  .question:hover i{
     rotate: 180deg;
  }
+
 /* footer */
+
 footer {
     background-color: var(--black);
     color: var(--white);
