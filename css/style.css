@@ -9,6 +9,15 @@
     --lightblue: rgb(181, 208, 232);
     --black: black;
     --blue: #0061FF;
+    --red:#D5001F;
+    --celestino:#B4D0E7;
+    --blue-scuro:#0D2481;
+    --giallo:#FFD830;
+    --marrone:#61082B;
+    --verdino:#A2D39B;
+    --celeste-scuro:#0093CE;
+    --rosso-acceso:#FF1C1C;
+    --grigetto:#F5F5F5;
 }
 
 body {
@@ -357,83 +366,36 @@ footer a {
 
 }
 
-.all-width {
+.quadrati-loghi {
+    width: calc(100% / 3);
+
+}
+
+.img-box {
+    width: 50%;
+    height: 16vw;
+    background-color:var(--red);
     position: relative;
-    width: 100vw;
-    background-color: red;
-    height: 100px;
+    border: 1px solid black;
+
+}
+.wrap {
+    flex-wrap: wrap;
 }
 
-.vw20s {
-    width: 30vw;
-    background-color: rgb(4, 0, 255);
-    /* height: 100px; */
-    left: 0;
-    top: 0;
-}
-
-.vw20d {
+.quadrati-loghi img {
+    filter: invert(1);
+    width: 50%;
     position: absolute;
-    width: 30vw;
-    background-color: rgb(18, 219, 65);
-    /* height: 100px; */
-    right: 0;
-    top: 0;
-}
-.tl{
-    width: 15vw;
-    height: 15vw;
-    background-color: aqua;
-    z-index: 10;
-    background-image: url('/img/designit.svg');
-  
-}
-.tr{
-    width: 15vw;
-    height: 15vw;
-    background-color: rgb(217, 255, 0);
-    z-index: 10;
-}
-.tld{
-    width: 15vw;
-    height: 15vw;
-    background-color: rgb(187, 37, 155);
-    z-index: 10;
-  
-}
-.trd{
-    width: 15vw;
-    height: 15vw;
-    background-color: rgb(202, 63, 63);
-    z-index: 10;
-}
-.bls{
-    width: 15vw;
-    height: 15vw;
-    background-color: rgb(197, 101, 21);
-    
-}
-.brs{
-    width: 15vw;
-    height: 15vw;
-    background-color: rgb(47, 21, 197);
-    
-}
-.bld{
-    margin-top: 15vw;
-    width: 15vw;
-    height: 15vw;
-    background-color: rgb(119, 107, 98);
-    
-}
-.brd{
-    margin-top: 15vw;
-    width: 15vw;
-    height: 15vw;
-    background-color: rgb(76, 72, 100);
-    
-}
-.margin-vw{
-    margin-top: 30vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+
+}
+
+.centrx {
+    height: 32vw;
+    padding: 10px;
+    overflow-y: auto;
 }
