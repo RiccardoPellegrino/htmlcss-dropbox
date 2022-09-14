@@ -170,27 +170,6 @@ h4 {
 
 }
 
-/* footer */
-footer {
-    background-color: var(--black);
-    color: var(--white);
-}
-
-.list {
-    width: calc(100% / 5);
-
-}
-
-hr {
-    color: rgb(255, 255, 255);
-}
-
-footer a {
-    text-decoration: none;
-    color: var(--white);
-}
-
-
 /* main */
 .radio-div {
     height: 50px;
@@ -433,6 +412,9 @@ footer a {
     align-items: center;
     padding:30px 0;
  }
+ #question-last{
+    border-bottom:1px solid black;
+ }
  .question i {
     position:absolute;
     top: 31px;
@@ -441,3 +423,30 @@ footer a {
  .question:hover i{
     rotate: 180deg;
  }
+/* footer */
+footer {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.list {
+    width: calc(100% / 5);
+
+}
+
+hr {
+    color:white;
+}
+
+footer a {
+    text-decoration: none;
+    color:white;
+}
+.all-widht-2{
+    background-color: black;
+    height: 500px;
+}
+.lingua{
+    background-color: black;
+    color: white;
+}
