@@ -145,12 +145,12 @@ h4 {
     margin-left: auto;
 }
 
-.bottone {
+/* .bottone {
     background-color: #0061FF;
     border: none;
     cursor: pointer;
 
-}
+} */
 
 .riga {
     width: 50px;
@@ -178,7 +178,7 @@ h4 {
     color: #0061FF;
 }
 
-.bianco {
+#bianco {
     color: black;
     background-color: white;
 }
