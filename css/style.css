@@ -383,11 +383,12 @@ h4 {
 }
 
 .centrx {
+    width: calc(100% / 3);
     height: 32vw;
     padding: 10px;
     overflow-y: auto;
     background-color: var(--grigetto);
-
+    overflow-y: auto;
 }
 
 .all-widht {
@@ -433,14 +434,10 @@ footer {
     width: calc(100% / 5);
 
 }
-
-hr {
-    color:white;
-}
-
 footer a {
     text-decoration: none;
     color:white;
+    
 }
 .all-widht-2{
     background-color: black;
@@ -449,4 +446,18 @@ footer a {
 .lingua{
     background-color: black;
     color: white;
+}
+.divisorio{
+    height: 1px;
+    width: 100px;
+    border: 1px solid white;
+    margin-left: 55px;
+}
+.lingua{
+    border: none;
+    background-color: black;
+    color: white;
+}
+footer ul{
+    margin-left: 55px;
 }
